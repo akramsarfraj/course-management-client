@@ -34,15 +34,22 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Docker-compose.yaml 
 
 services:
+
     db:
+    
       image: postgres:15
+      
       environment: 
+      
         - POSTGRES_PASSWORD=root
         - POSTGRES_USER=postgres
         - POSTGRES_DB=postgres
+        
       ports:
         - 5432:5432
+        
       volumes:
+      
         - postgres-data:/var/lib/pgsql
       restart: always
 
@@ -52,10 +59,14 @@ services:
         - 8080:8080
 
     reactApp:
+    
       image: akramsarfraj/course-client:1
       ports:
+      
         - 3000:3000
 volumes:
+
   postgres-data:
+  
     driver: local
 
