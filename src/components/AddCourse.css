@@ -1,0 +1,24 @@
+.addcourse{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+.form-course{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 400px;
+      
+}
+.form-course>input{
+    margin-bottom: 40px;
+}
+.form-course>button{
+    margin-left:150px;
+}

@@ -1,0 +1,39 @@
+.addinstance{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-instance{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 400px;
+      
+}
+.select{
+    border: none;
+}
+.select-option{
+    margin-left: 85px;
+}
+.select-option>button{
+    margin-left:16px;
+}
+.form-instance>.inputs{
+    margin-left:70px ;
+}
+.form-instance>.inputs>input{
+    margin: 20px;
+    display: inline-block;
+    
+    width: 100px;
+    margin-bottom: 20px;
+}
+.form-instance>button{
+    display: block;
+    margin-left:150px;
+}
